@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:inputType="text"
+        android:maxLines="1"
+        android:id="@+id/edt_fullName"
+        android:hint="Full Name"
+        android:imeOptions="actionNext"
+        android:layout_marginVertical="5dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:inputType="text"
+        android:maxLines="1"
+        android:imeOptions="actionNext"
+        android:id="@+id/edt_email"
+        android:hint="Email Address"
+        android:layout_marginVertical="5dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:inputType="number"
+        android:maxLines="1"
+        android:id="@+id/edt_mobile"
+        android:imeOptions="actionDone"
+        android:hint="Mobile Number"
+        android:layout_marginVertical="5dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:inputType="numberSigned"
+        android:maxLines="1"
+        android:id="@+id/edt_bdate"
+        android:hint="Date of Birth"
+        android:focusable="false"
+        android:layout_marginVertical="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginHorizontal="5dp"
+        android:text="Age"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:id="@+id/tv_age"
+        android:layout_marginVertical="5dp"
+        android:layout_marginHorizontal="5dp"
+        android:paddingVertical="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginHorizontal="5dp"
+        android:text="Gender"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp_gender"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:id="@+id/btn_submit"
+        android:text="SUBMIT"/>
+
+
+</LinearLayout>
